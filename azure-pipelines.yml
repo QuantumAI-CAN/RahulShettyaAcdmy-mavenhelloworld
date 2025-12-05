@@ -8,7 +8,9 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: MyMac
+  demands:
+  - agent.name -equals MacBookPro
 
 steps:
 - task: Maven@3
