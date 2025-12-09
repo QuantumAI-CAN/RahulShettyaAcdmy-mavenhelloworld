@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  name: MyMac
+  name: Default
   demands:
   - agent.name -equals MacBookPro
 
